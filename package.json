@@ -8,14 +8,18 @@
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "keywords": ["x402", "stacks", "demo"],
+  "keywords": [
+    "x402",
+    "stacks",
+    "demo"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "x402-stacks": "file:/Users/antoniosantiagoduenas/Documents/Development/hackathones/stacks/x402Stacks"
+    "x402-stacks": "1.1.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
