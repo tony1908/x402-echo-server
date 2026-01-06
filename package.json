@@ -1,0 +1,28 @@
+{
+  "name": "x402-scandemoserver",
+  "version": "1.0.0",
+  "description": "Demo x402 echo server for x402scan",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["x402", "stacks", "demo"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "x402-stacks": "file:/Users/antoniosantiagoduenas/Documents/Development/hackathones/stacks/x402Stacks"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
