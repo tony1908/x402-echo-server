@@ -18,8 +18,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       x402-stacks:
-        specifier: file:/Users/antoniosantiagoduenas/Documents/Development/hackathones/stacks/x402Stacks
-        version: file:../../hackathones/stacks/x402Stacks(express@5.2.1)
+        specifier: 1.1.1
+        version: 1.1.1(express@5.2.1)
     devDependencies:
       '@types/cors':
         specifier: ^2.8.19
@@ -623,8 +623,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  x402-stacks@file:../../hackathones/stacks/x402Stacks:
-    resolution: {directory: ../../hackathones/stacks/x402Stacks, type: directory}
+  x402-stacks@1.1.1:
+    resolution: {integrity: sha512-wMWrU8EZjDCoq5LsPVQdD/HNm2bq0aNHySBkK56qeuHlV/BtMxay4oQ9W+GuWBIeEeCXqRsdeWltwj7cvF3k0A==}
     peerDependencies:
       express: ^4.18.0
     peerDependenciesMeta:
@@ -1258,7 +1258,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  x402-stacks@file:../../hackathones/stacks/x402Stacks(express@5.2.1):
+  x402-stacks@1.1.1(express@5.2.1):
     dependencies:
       '@stacks/network': 6.17.0
       '@stacks/transactions': 6.17.0
